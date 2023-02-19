@@ -96,8 +96,6 @@ a {
   gap: var(--gap);
 }
 
-.logo__image {}
-
 .logo__title {
   font-size: 36px;
   line-height: 42px;
@@ -151,8 +149,110 @@ a {
   gap: 0 var(--gap-very-small);
 }
 
-
 .navbar-second__link {
   display: block;
   padding: 7px var(--gap-very-small);
+}
+
+.main {}
+
+.advertising {
+  background-image: url(../img/Rectangle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-top: 160px;
+  padding-bottom: 190px;
+  color: var(--color-white);
+}
+
+.button--secondary {
+  background-color: var(--color-accent);
+  border-color: var(--color-white);
+  color: var(--color-white);
+}
+
+.advertising__title {
+  margin-bottom: 40px;
+  font-size: 48px;
+  line-height: var(--line-height-small);
+}
+
+.advertising__text {
+  margin-bottom: 42px;
+  font-size: 0.875rem;
+  line-height: var(--line-height-large);
+  max-width: 308px;
+}
+
+.advertising__button {}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0 30px;
+}
+
+.goods-first {}
+
+
+.goods-first__cards {}
+
+.goods-first__item {}
+
+.grid__item-title {
+  grid-column: 1/4;
+  grid-row: 1/2;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.goods-first__title {
+  font-size: 24px;
+  line-height: var(--line-height-small);
+}
+
+.grid__item {
+  grid-row: 4/4;
+  text-align: center;
+}
+
+.goods-first__background {
+  background-color: var(--color-white);
+  max-height: 363px;
+}
+
+.grid__item .goods-first__background {
+  padding: 26px 30px;
+}
+
+.goods-first__picture {
+  margin-bottom: 15px;
+}
+
+.goods-first__text {
+  font-size: 0.875rem;
+  line-height: var(--line-height-large);
+  margin-bottom: 13px;
+}
+
+.goods-first__price {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 1.19;
+  letter-spacing: 0.05em;
+  margin-bottom: 23px;
+}
+
+.goods-first__button {
+  font-size: 0.875rem;
+  line-height: var(--line-height-large);
+  letter-spacing: 0.05em;
+  color: var(--color-white);
+  border-radius: 20px;
+  border: 2px solid var(--color-accent);
+  background-color: var(--color-accent);
+  color: var(--color-white);
+  padding: 7px 38px;
+  cursor: pointer;
 }
