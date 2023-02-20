@@ -391,3 +391,49 @@ a {
   width: 145px;
   height: 50px;
 }
+
+
+.recently-watched__title {
+  font-size: 24px;
+  line-height: var(--line-height-small);
+}
+
+.recently-watched__background {
+  background-color: var(--color-white);
+  min-height: 363px;
+}
+
+.grid__item .recently-watched__background {
+  padding: 20px 30px;
+}
+
+.recently-watched__picture {
+  margin-bottom: 15px;
+}
+
+.recently-watched__text {
+  font-size: 0.875rem;
+  line-height: var(--line-height-large);
+  margin-bottom: 13px;
+}
+
+.recently-watched__price {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 1.19;
+  letter-spacing: 0.05em;
+  margin-bottom: 23px;
+}
+
+.recently-watched__button {
+  font-size: 0.875rem;
+  line-height: var(--line-height-large);
+  letter-spacing: 0.05em;
+  color: var(--color-white);
+  border-radius: 20px;
+  border: 2px solid var(--color-accent);
+  background-color: var(--color-accent);
+  color: var(--color-white);
+  padding: 7px 38px;
+  cursor: pointer;
+}
