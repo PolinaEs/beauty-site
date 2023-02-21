@@ -167,14 +167,14 @@ a {
   align-items: center;
   order: -1;
   min-height: 50px;
-  margin-top: 5px;
+  margin-top: 6px;
 }
 
 .navbar-second__list {
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 0 var(--gap-very-small);
+  gap: 0px 11px;
 }
 
 .navbar-second__link {
@@ -197,14 +197,16 @@ a {
   margin-bottom: 40px;
   font-size: 48px;
   line-height: var(--line-height-small);
-
+  max-width: 308px;
+  overflow-wrap: break-word;
 }
 
 .advertising__text {
-  margin-bottom: 55px;
+  margin-bottom: 56px;
   font-size: 0.875rem;
   line-height: var(--line-height-large);
   max-width: 308px;
+  overflow-wrap: break-word;
 }
 
 .advertising__button {
@@ -242,9 +244,9 @@ a {
   padding: 25px;
   text-align: center;
   background-color: var(--color-white);
-
+  overflow-wrap: break-word;
   max-width: 255px;
-  max-height: 363px;
+  min-height: 363px;
   margin-top: 20px;
 }
 
@@ -252,6 +254,8 @@ a {
   font-size: 0.875rem;
   line-height: var(--line-height-large);
   margin-bottom: 13px;
+  min-height: 33px;
+  max-width: 195px;
 }
 
 .goods-item__picture {
@@ -265,6 +269,8 @@ a {
   line-height: 1.19;
   letter-spacing: 0.05em;
   margin-bottom: 13px;
+  overflow-wrap: break-word;
+  max-width: 195px;
 }
 
 .goods-item__button {
@@ -281,7 +287,7 @@ a {
 }
 
 .information {
-  margin-bottom: 100px;
+  margin-bottom: 90px;
   color: var(--color-white);
 }
 
@@ -292,7 +298,7 @@ a {
 
 .subscribe {
   flex: 1;
-  padding: 25px 40px;
+  padding: 20px 40px;
   background-image: url(../img/envelope.svg);
   background-repeat: no-repeat;
   background-position: calc(100% - 45px) center;
@@ -303,12 +309,15 @@ a {
 .subscribe__content {
   display: flex;
   flex-direction: column;
-  min-width: 250px;
   gap: 20px;
+  max-width: 250px;
+  min-height: 40px;
+  overflow-wrap: break-word;
+  margin-top: 5px;
 }
 
 .subscribe__title {
-  margin-top: 9px;
+  margin-top: 8px;
   font-size: 18px;
   line-height: var(--line-height-small);
 }
@@ -334,7 +343,7 @@ a {
 
 .location {
   flex: 1;
-  padding: 25px 40px;
+  padding: 20px 40px;
   background-image: url(../img/car.svg);
   background-repeat: no-repeat;
   background-position: calc(100% - 45px) center;
@@ -345,18 +354,21 @@ a {
 .location__content {
   display: flex;
   flex-direction: column;
-  max-width: 250px;
+  max-width: 200px;
   gap: 20px;
+  min-height: 40px;
+  overflow-wrap: break-word;
+  margin-top: 5px;
 }
 
 .location__title {
-  margin-top: 9px;
+  margin-top: 8px;
   font-size: 18px;
   line-height: var(--line-height-small);
 }
 
 .location__description {
-  margin-bottom: 2px;
+  margin-bottom: 3px;
   line-height: 21px;
 }
 
@@ -384,7 +396,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  height: 358px;
+  height: 375px;
   flex-direction: column;
 }
 
@@ -392,7 +404,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px 62px;
+  padding: 32px 62px;
   background-color: var(--color-white);
   border: 0.5px solid var(--color-light);
 }
@@ -403,7 +415,7 @@ a {
 }
 
 .watched__title {
-  margin-top: 77px;
+  margin-top: 70px;
   margin-bottom: 20px;
   font-size: 24px;
   line-height: var(--line-height-small);
@@ -426,9 +438,9 @@ a {
   padding: 25px;
   text-align: center;
   background-color: var(--color-white);
-
+  overflow-wrap: break-word;
   max-width: 255px;
-  max-height: 363px;
+  min-height: 363px;
   margin-top: 20px;
 }
 
@@ -436,6 +448,8 @@ a {
   font-size: 0.875rem;
   line-height: var(--line-height-large);
   margin-bottom: 13px;
+  min-height: 33px;
+  max-width: 195px;
 }
 
 .watched-item__picture {
@@ -449,6 +463,8 @@ a {
   line-height: 1.19;
   letter-spacing: 0.05em;
   margin-bottom: 13px;
+  overflow-wrap: break-word;
+  max-width: 195px;
 }
 
 .watched-item__button {
@@ -471,7 +487,7 @@ a {
 .footer-category {
   display: flex;
   flex-direction: row;
-  margin-top: 57px;
+  margin-top: 55px;
   gap: 0 30px;
   align-items: center;
   justify-content: space-between;
@@ -490,7 +506,9 @@ a {
   flex-direction: column;
   justify-content: center;
   max-width: 255px;
-  max-height: 253px;
+  min-height: 253px;
+  overflow-wrap: break-word;
+
 }
 
 .footer-category__title {
@@ -499,6 +517,8 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
+  overflow-wrap: break-word;
+  max-width: 200px;
 }
 
 .line {
@@ -528,7 +548,7 @@ hr {
 }
 
 .footer-info {
-  padding-top: 15px;
+  padding-top: 12px;
 }
 
 .footer-info__container {
@@ -583,7 +603,7 @@ hr {
 }
 
 .footer-bottom__container {
-  margin-top: 24px;
+  margin-top: 27px;
   padding: 25px 0px;
   display: flex;
   justify-content: space-between;
