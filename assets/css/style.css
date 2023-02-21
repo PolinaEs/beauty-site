@@ -185,9 +185,10 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  padding-top: 159px;
-  padding-bottom: 204px;
+  padding-top: 157px;
+  padding-bottom: 202px;
   color: var(--color-white);
+  min-height: 604px;
 }
 
 .advertising__title {
@@ -215,7 +216,7 @@ a {
 }
 
 .goods__title {
-  margin-top: 82px;
+  margin-top: 78px;
   margin-bottom: 20px;
   font-size: 24px;
   line-height: var(--line-height-small);
@@ -445,7 +446,7 @@ a {
 }
 
 .footer {
-  max-width: 1920px;
+  max-width: 100vw;
   background-color: var(--color-white);
 }
 
