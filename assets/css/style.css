@@ -328,7 +328,7 @@ a {
   display: block;
   width: 100%;
   min-height: 35%;
-  padding: 9px 25px;
+  padding: 10px 25px;
   border: none;
   border-radius: 30px;
   background-color: var(--color-white);
