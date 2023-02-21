@@ -323,7 +323,8 @@ a {
   line-height: 21px;
 }
 
-.subscribe__form {
+.subscribe__input {
+  border-style: none;
   display: block;
   width: 100%;
   min-height: 35%;
@@ -333,11 +334,6 @@ a {
   background-color: var(--color-white);
   font-size: 0.875rem;
   max-width: 225px;
-
-}
-
-.subscribe__input {
-  border-style: none;
 }
 
 
