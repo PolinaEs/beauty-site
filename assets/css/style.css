@@ -41,6 +41,8 @@ body {
   font-size: 0.875rem;
   background-color: var(--color-light);
   color: var(--color-black);
+  overflow-x: hidden;
+  min-width: 1100px
 }
 
 a {
@@ -199,7 +201,7 @@ a {
 }
 
 .advertising__text {
-  margin-bottom: 54px;
+  margin-bottom: 55px;
   font-size: 0.875rem;
   line-height: var(--line-height-large);
   max-width: 308px;
@@ -213,6 +215,10 @@ a {
   border-radius: 20px;
   border: 2px solid;
   padding: 9px 47px;
+}
+
+.goods {
+  min-width: 1100px;
 }
 
 .goods__title {
@@ -281,6 +287,7 @@ a {
 .information {
   margin-bottom: 100px;
   color: var(--color-white);
+  min-width: 1100px;
 }
 
 .information__content {
@@ -295,30 +302,32 @@ a {
   background-repeat: no-repeat;
   background-position: calc(100% - 45px) center;
   background-color: var(--color-accent);
+  min-height: 212px;
 }
 
 .subscribe__content {
   display: flex;
   flex-direction: column;
   min-width: 250px;
-  gap: 25px;
+  gap: 20px;
 }
 
 .subscribe__title {
+  margin-top: 9px;
   font-size: 18px;
   line-height: var(--line-height-small);
 }
 
 .subscribe__description {
+  margin-bottom: 3px;
   line-height: 21px;
-
 }
 
 .subscribe__form {
   display: block;
   width: 100%;
   min-height: 35%;
-  padding: 4px 25px;
+  padding: 9px 25px;
   border: none;
   border-radius: 30px;
   background-color: var(--color-white);
@@ -339,21 +348,24 @@ a {
   background-repeat: no-repeat;
   background-position: calc(100% - 45px) center;
   background-color: var(--color-accent);
+  min-height: 212px;
 }
 
 .location__content {
   display: flex;
   flex-direction: column;
   max-width: 250px;
-  gap: 25px;
+  gap: 20px;
 }
 
 .location__title {
+  margin-top: 9px;
   font-size: 18px;
   line-height: var(--line-height-small);
 }
 
 .location__description {
+  margin-bottom: 2px;
   line-height: 21px;
 }
 
@@ -382,8 +394,8 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  min-width: var(--container-primary);
-  height: 357px;
+  /* max-width: 1100px; */
+  height: 358px;
   flex-direction: column;
 }
 
@@ -402,7 +414,7 @@ a {
 }
 
 .watched__title {
-  margin-top: 75px;
+  margin-top: 77px;
   margin-bottom: 20px;
   font-size: 24px;
   line-height: var(--line-height-small);
@@ -488,7 +500,6 @@ a {
   position: relative;
   display: flex;
   flex-direction: column;
-  align-items: left;
   justify-content: center;
   max-width: 255px;
   max-height: 253px;
@@ -520,6 +531,7 @@ a {
   font-size: 12px;
   line-height: 28px;
   color: var(--color-dark-gray);
+  max-width: 82px;
 }
 
 hr {
