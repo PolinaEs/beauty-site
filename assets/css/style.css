@@ -66,6 +66,7 @@ a {
 .container {
   width: min(100% - var(--gap) * 2, var(--container-primary));
   margin-inline: auto;
+  overflow-wrap: break-word;
 }
 
 .container--sm {
